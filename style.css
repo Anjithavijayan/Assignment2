@@ -1,0 +1,96 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://www.datocms-assets.com/23496/1647376441-gettyimages-815199586-e1538999973765.jpg?fit=crop&h=640&w=1280');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color:rgba(165, 163, 160, 0.29);
+    border-radius: 30px;
+    box-shadow: 2px 5px 5px 2px rgba(88, 77, 55, 0.705);
+    border-style:ridge;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #212020;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(165, 163, 160, 0.29);
+}
+
+.logo{
+margin: 5px;
+display: flex;
+align-items: center;
+padding-left: 10px;
+}
+
+h1{
+    padding-left: 10px;
+}
+
+
+.input_container{
+    margin-bottom: 10px;  
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:#212020;
+}
+
+.input_box{
+    width:93%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline-color:#5d52b2;
+}
+.calculator{
+    display: flex;
+    gap: 1rem;
+}
+
+button{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #151414a8;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #5d52b2;
+}
+.button2{
+    background-color: #aa2fa2;
+}
+#result{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
