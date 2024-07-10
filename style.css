@@ -6,13 +6,14 @@
 }
 
 body{
-    background-image: url('https://www.datocms-assets.com/23496/1647376441-gettyimages-815199586-e1538999973765.jpg?fit=crop&h=640&w=1280');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('https://www.datocms-assets.com/23496/1647376441-gettyimages-815199586-e1538999973765.jpg?fit=crop&h=800&w=1540'); 
+    background-color: cover;
+    background-repeat: repeat-x;
+    
     
 }
 .container {
-    width: 400px;
+    width: 300px;
     margin: 80px auto;
     padding: 40px;
     background-color:rgba(165, 163, 160, 0.29);
@@ -28,6 +29,7 @@ body{
     text-align: center;
 }
 .navbar{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +60,7 @@ label{
 }
 
 .input_box{
-    width:93%;
+    width:100%;
     padding: 10px;
     margin-bottom: 20px;
     font-size: 16px;
@@ -72,7 +74,7 @@ label{
 }
 
 button{
-    width: 100%;
+    width: 80%;
     padding: 8px;
     font-size: 18px;
     color: #fff;
